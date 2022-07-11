@@ -13,5 +13,5 @@ pip install -r requirements.txt
 ```
 
 ### Scripts:
-[text_to_speech.py](text_to_speech.py)
-[style.qss](style.qss)
+- [text_to_speech.py](text_to_speech.py)
+- [style.qss](style.qss)
