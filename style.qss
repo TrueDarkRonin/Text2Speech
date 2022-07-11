@@ -1,0 +1,153 @@
+/*-----QWidget-----*/
+QWidget
+{
+	background-color: #1a1a1a;
+	color: #000000;
+}
+
+
+/*-----QLabel-----*/
+QLabel
+{
+	background-color: transparent;
+	color: #c2c7d5;
+	font-size: 13px;
+}
+
+
+/*-----QPushButton-----*/
+QPushButton
+{
+	background-color: #ff3333;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+}
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+}
+
+QPushButton::pressed
+{
+	background-color: #ff4747;
+}
+
+
+/*-----QComboBox-----*/
+QComboBox
+{
+	color: #ffffff;
+}
+
+
+/*-----QLineEdit-----*/
+QLineEdit
+{
+	background-color: #c2c7d5;
+	color: #000;
+	font-weight: bold;
+	border: none;
+	border-radius: 2px;
+	padding: 3px;
+}
+
+
+/*-----QListView-----*/
+QListView
+{
+	background-color: #333333;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	border: 1px solid #191919;
+	show-decoration-selected: 0;
+	padding-left: -13px;
+	padding-right: -13px;
+}
+
+QListView::item
+{
+	color: #31cecb;
+	background-color: #454e5e;
+	border: none;
+	padding: 5px;
+	border-radius: 0px;
+	padding-left : 10px;
+	height: 42px;
+}
+
+QListView::item:selected
+{
+	color: #000;
+	background-color: #ff3333;
+}
+
+QListView::item:!selected
+{
+	color:white;
+	background-color: transparent;
+	border: none;
+	padding-left : 10px;
+}
+
+QListView::item:!selected:hover
+{
+	color: #000;
+	background-color: #bcbdbb;
+	border: none;
+	padding-left : 10px;
+}
+
+
+/*-----QScrollBar-----*/
+QScrollBar:horizontal 
+{
+    background-color: transparent;
+    height: 8px;
+    margin: 0px;
+    padding: 0px;
+}
+
+QScrollBar::handle:horizontal 
+{
+    border: none;
+	min-width: 100px;
+    background-color: #9b9b9b;
+}
+
+QScrollBar::add-line:horizontal, 
+QScrollBar::sub-line:horizontal,
+QScrollBar::add-page:horizontal, 
+QScrollBar::sub-page:horizontal 
+{
+    width: 0px;
+    background-color: transparent;
+}
+
+QScrollBar:vertical 
+{
+    background-color: transparent;
+    width: 8px;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical 
+{
+    border: none;
+	min-height: 100px;
+    background-color: #9b9b9b;
+}
+
+QScrollBar::add-line:vertical, 
+QScrollBar::sub-line:vertical,
+QScrollBar::add-page:vertical, 
+QScrollBar::sub-page:vertical 
+{
+    height: 0px;
+    background-color: transparent;
+}
